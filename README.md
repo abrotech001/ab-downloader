@@ -1,112 +1,291 @@
-___
-
 <div align="center">
-  <a href="https://nodei.co/npm/btch-downloader" title="npm"><img src="https://nodei.co/npm/btch-downloader.png?downloads=true&downloadRank=true&stars=true"></img></a>
+
+# 🚀 AB-Downloader
+
+![AB-Downloader Logo](https://files.catbox.moe/5msbx0.png)
+
+### 🎯 **Universal Media Downloader**
+*Download content from Instagram, TikTok, Facebook, YouTube, and more!*
+
+[![npm version](https://img.shields.io/npm/v/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
+[![downloads](https://img.shields.io/npm/dm/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
+[![license](https://img.shields.io/npm/l/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://github.com/abrotech001/ab-downloader/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/abrotech001/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://github.com/abrotech001/ab-downloader/stargazers)
+
+---
+
 </div>
 
-### Installation
-```sh
-npm i btch-downloader
-```
+## 📦 Installation
 
-### Python Installation
-Install the library using pip:
-
+### Node.js
 ```bash
-pip install btch-downloader
+npm install ab-downloader
 ```
-#### [Official Python Documentation](https://github.com/hostinger-bot/btch-downloader-py/tree/main#usage) for setup details.
 
-#### Usage
-   - For complete documentation, visit [JSDoc](https://hostinger-bot.github.io/btch-downloader/).
-
-### AIO (Under Maintenance) zh (维护中）
-```js
-const { aio } = require('btch-downloader')
-
-const url = 'https://www.instagram.com/p/ByxKbUSnubS/?utm_source=ig_web_copy_link'
-aio(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
+### Python
+```bash
+pip install ab-downloader
 ```
-### Instagram
-```js
-const { igdl } = require('btch-downloader')
 
-const url = 'https://www.instagram.com/p/ByxKbUSnubS/?utm_source=ig_web_copy_link'
-igdl(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Tiktok
-```js
-const { ttdl } = require('btch-downloader')
+> 📚 **Python Documentation**: [Complete Python Setup Guide](https://github.com/abrotech001/ab-downloader-py/tree/main#usage)
 
-const url = 'https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226'
-ttdl(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Facebook
-```js
-const { fbdown } = require('btch-downloader')
+---
 
-const url = 'https://www.facebook.com/watch/?v=1393572814172251'
-fbdown(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Twitter
-```js
-const { twitter } = require('btch-downloader')
+## 🎨 Features
 
-const url = 'https://twitter.com/gofoodindonesia/status/1229369819511709697'
-twitter(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### YouTube
-```js
-const { youtube } = require('btch-downloader')
+<div align="center">
 
-const url = 'https://youtube.com/watch?v=C8mJ8943X80'
-youtube(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### MediaFire
-```js
-const { mediafire } = require('btch-downloader')
+| Platform | Status | Features |
+|----------|--------|----------|
+| 📸 **Instagram** | ✅ Active | Posts, Stories, Reels |
+| 🎵 **TikTok** | ✅ Active | Videos, No Watermark |
+| 📘 **Facebook** | ✅ Active | Videos, Posts |
+| 🐦 **Twitter** | ✅ Active | Videos, Images |
+| 🎬 **YouTube** | ✅ Active | Videos, Audio |
+| 📁 **MediaFire** | ✅ Active | Direct Downloads |
+| 🎬 **CapCut** | ✅ Active | Templates |
+| 💾 **Google Drive** | ✅ Active | Public Files |
+| 📌 **Pinterest** | ✅ Active | Images, Search |
+| 🔄 **AIO** | 🔧 Maintenance | Universal Downloader |
 
-const url = 'https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk/file'
-mediafire(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Capcut
-```js
-const { capcut } = require('btch-downloader')
+</div>
 
-const url = 'https://www.capcut.com/template-detail/7299286607478181121?template_id=7299286607478181121&share_token=80302b19-8026-4101-81df-2fd9a9cecb9c&enter_from=template_detail®ion=ID&language=in&platform=copy_link&is_copy_link=1'
-capcut(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Gdrive
-```js
-const { gdrive } = require('btch-downloader')
+---
 
-const url = 'https://drive.google.com/file/d/1thDYWcS5p5FFhzTpTev7RUv0VFnNQyZ4/view?usp=drivesdk'
-gdrive(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
-```
-### Pinterest
-```js
-const { pinterest } = require('btch-downloader')
+## 🚀 Quick Start
 
-const url = 'https://pin.it/4CVodSq'
-pinterest(url).then(data => console.log(data)).catch(err => console.error(err)); // JSON
+### 🌟 AIO - All in One *(Under Maintenance)*
+```javascript
+const { aio } = require('ab-downloader');
 
-// Using a search query
-pinterest('Zhao Lusi')
+const url = 'https://www.instagram.com/p/ByxKbUSnubS/';
+aio(url)
   .then(data => console.log(data))
-  .catch(err => console.error(err)); //JSON
+  .catch(err => console.error(err));
 ```
 
-### Important Notes
+---
 
-1. This downloader can only be used to download media that is public or accessible to the public.
-2. This application is not affiliated with or endorsed by any application.
-3. Ensure you have permission or copyright to download media before using this application.
+## 📱 Platform Examples
 
-### Contribution and Issue Reporting
+### 📸 Instagram
+```javascript
+const { igdl } = require('ab-downloader');
 
-If you encounter any issues or wish to contribute to the development of this application, please visit our [GitHub repository](https://github.com/hostinger-bot/btch-downloader).
+const url = 'https://www.instagram.com/p/ByxKbUSnubS/';
+igdl(url)
+  .then(data => {
+    console.log('✅ Instagram content downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
 
-### License
+### 🎵 TikTok
+```javascript
+const { ttdl } = require('ab-downloader');
 
-btch-downloader is licensed under the [MIT License](https://github.com/hostinger-bot/btch-downloader/blob/main/LICENSE). Please refer to the LICENSE file for more information.
-___
+const url = 'https://www.tiktok.com/@username/video/1234567890';
+ttdl(url)
+  .then(data => {
+    console.log('✅ TikTok video downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 📘 Facebook
+```javascript
+const { fbdown } = require('ab-downloader');
+
+const url = 'https://www.facebook.com/watch/?v=1393572814172251';
+fbdown(url)
+  .then(data => {
+    console.log('✅ Facebook video downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 🐦 Twitter
+```javascript
+const { twitter } = require('ab-downloader');
+
+const url = 'https://twitter.com/username/status/1229369819511709697';
+twitter(url)
+  .then(data => {
+    console.log('✅ Twitter media downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 🎬 YouTube
+```javascript
+const { youtube } = require('ab-downloader');
+
+const url = 'https://youtube.com/watch?v=C8mJ8943X80';
+youtube(url)
+  .then(data => {
+    console.log('✅ YouTube video downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 📁 MediaFire
+```javascript
+const { mediafire } = require('ab-downloader');
+
+const url = 'https://www.mediafire.com/file/941xczxhn27qbby/file.apk/file';
+mediafire(url)
+  .then(data => {
+    console.log('✅ MediaFire file downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 🎬 CapCut
+```javascript
+const { capcut } = require('ab-downloader');
+
+const url = 'https://www.capcut.com/template-detail/7299286607478181121';
+capcut(url)
+  .then(data => {
+    console.log('✅ CapCut template downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 💾 Google Drive
+```javascript
+const { gdrive } = require('ab-downloader');
+
+const url = 'https://drive.google.com/file/d/1thDYWcS5p5FFhzTpTev7RUv0VFnNQyZ4/view';
+gdrive(url)
+  .then(data => {
+    console.log('✅ Google Drive file downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+### 📌 Pinterest
+```javascript
+const { pinterest } = require('ab-downloader');
+
+// Download by URL
+const url = 'https://pin.it/4CVodSq';
+pinterest(url)
+  .then(data => {
+    console.log('✅ Pinterest image downloaded!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+
+// Search Pinterest
+pinterest('Nature Photography')
+  .then(data => {
+    console.log('✅ Pinterest search results!');
+    console.log(data);
+  })
+  .catch(err => console.error('❌ Error:', err));
+```
+
+---
+
+## 📖 Documentation
+
+<div align="center">
+
+### 🔗 **[Complete API Documentation](https://abrotech001.github.io/ab-downloader/)**
+
+*Detailed guides, examples, and API references*
+
+</div>
+
+---
+
+## ⚠️ Important Notes
+
+> ### 🔒 **Legal & Ethical Use**
+> - ✅ Only download **public** or **accessible** content
+> - ✅ Ensure you have **permission** or **copyright** to download media
+> - ✅ Respect **platform terms of service**
+> - ❌ This application is **not affiliated** with any social media platform
+
+> ### 🛡️ **Disclaimer**
+> Users are responsible for complying with applicable laws and platform policies when using this downloader.
+
+---
+
+## 🤝 Contributing
+
+<div align="center">
+
+### We welcome contributions! 🎉
+
+[![GitHub Issues](https://img.shields.io/github/issues/abrotech001/ab-downloader.svg?style=for-the-badge&color=red)](https://github.com/abrotech001/ab-downloader/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/abrotech001/ab-downloader.svg?style=for-the-badge&color=blue)](https://github.com/abrotech001/ab-downloader/pulls)
+
+</div>
+
+### 🐛 Found a Bug?
+1. Check existing [issues](https://github.com/abrotech001/ab-downloader/issues)
+2. Create a new issue with detailed description
+3. Include error logs and reproduction steps
+
+### 💡 Want to Contribute?
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+<div align="center">
+
+**AB-Downloader** is licensed under the [MIT License](https://github.com/abrotech001/ab-downloader/blob/main/LICENSE)
+
+*Feel free to use, modify, and distribute this software*
+
+---
+
+### 🌟 **Star this repo if you found it helpful!**
+
+[![GitHub stars](https://img.shields.io/github/stars/abrotech001/ab-downloader.svg?style=social&label=Star)](https://github.com/abrotech001/ab-downloader/stargazers)
+
+---
+
+<sub>Made with ❤️ by [AbroTech](https://github.com/abrotech001)</sub>
+
+</div>
+```
+
+This enhanced README.md features:
+
+🎨 **Visual Enhancements:**
+- Modern badges and shields
+- Organized sections with emojis
+- Professional table layouts
+- Centered alignments for key sections
+
+🚀 **Improved Structure:**
+- Clear feature matrix table
+- Enhanced code examples with success messages
+- Better organized platform sections
+- Professional contributing guidelines
+
+📱 **Modern Styling:**
+- Consistent emoji usage
+- Color-coded badges
+- Professional disclaimer section
+- Enhanced documentation links
+
+The markdown uses modern GitHub-flavored markdown features while maintaining readability and professional appearance!
