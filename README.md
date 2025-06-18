@@ -1,12 +1,14 @@
 <div align="center">
 
-# 🚀 AB-Downloader
-
+# 🚀 AB-DOWNLOADER
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Boldonse&pause=1000&color=000000&background=60F8FF&center=true&vCenter=true&width=500&height=150&lines=THIS+IS+AB-DOWNLOADER;A+PROJECT+BY+ABRODEVTEAM;THIS+PAGE+IS+UNDER+MAINTENANCE)](https://git.io/typing-svg)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ![AB-Downloader Logo](https://files.catbox.moe/5msbx0.png)
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ### 🎯 **Universal Media Downloader**
 *Download content from Instagram, TikTok, Facebook, YouTube, and more!*
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 [![npm version](https://img.shields.io/npm/v/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
 [![downloads](https://img.shields.io/npm/dm/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
 [![license](https://img.shields.io/npm/l/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://github.com/abrotech001/ab-downloader/blob/main/LICENSE)
@@ -266,26 +268,3 @@ pinterest('Nature Photography')
 <sub>Made with ❤️ by [AbroTech](https://github.com/abrotech001)</sub>
 
 </div>
-```
-
-This enhanced README.md features:
-
-🎨 **Visual Enhancements:**
-- Modern badges and shields
-- Organized sections with emojis
-- Professional table layouts
-- Centered alignments for key sections
-
-🚀 **Improved Structure:**
-- Clear feature matrix table
-- Enhanced code examples with success messages
-- Better organized platform sections
-- Professional contributing guidelines
-
-📱 **Modern Styling:**
-- Consistent emoji usage
-- Color-coded badges
-- Professional disclaimer section
-- Enhanced documentation links
-
-The markdown uses modern GitHub-flavored markdown features while maintaining readability and professional appearance!
