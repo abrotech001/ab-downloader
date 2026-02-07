@@ -1,18 +1,32 @@
 <div align="center">
 
 # 🚀 AB-DOWNLOADER
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Boldonse&pause=1000&color=000000&background=60F8FF&center=true&vCenter=true&width=500&height=150&lines=THIS+IS+AB-DOWNLOADER;A+PROJECT+BY+ABRODEVTEAM;THIS+PAGE+IS+UNDER+MAINTENANCE)](https://git.io/typing-svg)
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-![AB-Downloader Logo](https://files.catbox.moe/5msbx0.png)
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<img src="https://i.imgur.com/LyHic3i.gif" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&background=60F8FF&center=true&vCenter=true&width=500&height=100&lines=THIS+IS+AB-DOWNLOADER;A+PROJECT+BY+ABRODEVTEAM;POWERFUL+MEDIA+TOOL)](https://git.io/typing-svg)
+
+<br>
+
+<img src="https://files.catbox.moe/5msbx0.png" width="180" alt="AB-Downloader Logo"/>
+
 ### 🎯 **Universal Media Downloader**
 *Download content from Instagram, TikTok, Facebook, YouTube, and more!*
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+<br>
+
+<a href="https://whatsapp.com/channel/0029VaidGkA6hENhcPlyuu1e">
+  <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
+</a>
+
+<br>
+<br>
+
 [![npm version](https://img.shields.io/npm/v/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
 [![downloads](https://img.shields.io/npm/dm/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://www.npmjs.com/package/ab-downloader)
 [![license](https://img.shields.io/npm/l/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://github.com/abrotech001/ab-downloader/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/abrotech001/ab-downloader.svg?style=for-the-badge&color=00d4aa)](https://github.com/abrotech001/ab-downloader/stargazers)
+
+<img src="https://i.imgur.com/LyHic3i.gif" width="100%"/>
 
 ---
 
@@ -25,12 +39,8 @@
 npm install ab-downloader
 ```
 
-### Python
-```bash
-pip install ab-downloader
-```
+### No more Python Config
 
-> 📚 **Python Documentation**: [Complete Python Setup Guide](https://github.com/abrotech001/ab-downloader-py/tree/main#usage)
 
 ---
 
@@ -84,6 +94,23 @@ igdl(url)
   .catch(err => console.error('❌ Error:', err));
 ```
 
+<details>
+<summary><b>View Sample Response</b></summary>
+
+```json
+[
+ {
+  developer: 'AbroCodes',
+  contactme: 'Telegram: abrocodes',
+  thumbnail: '...',
+  url: '...'
+  resolution: undefined,
+  shouldRender: undefined
+ }
+]
+```
+</details>
+
 ### 🎵 TikTok
 ```javascript
 const { ttdl } = require('ab-downloader');
@@ -96,6 +123,23 @@ ttdl(url)
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+[
+  {
+    developer: 'AbroCodes',
+    contactme: 'Telegram: abrocodes',
+    title: ...,
+    title_audio: ...,
+    thumbnail: ...,
+    video：［],
+    audio: []
+  }
+]
+```
+</details>
 
 ### 📘 Facebook
 ```javascript
@@ -110,6 +154,21 @@ fbdown(url)
   .catch(err => console.error('❌ Error:', err));
 ```
 
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+[
+  {
+    developer: 'AbroCodes',
+    contactme: 'Telegram: abrocodes',
+    Normal_video: ...,
+    HD: ...
+  }
+]
+```
+</details>
+
 ### 🐦 Twitter
 ```javascript
 const { twitter } = require('ab-downloader');
@@ -122,6 +181,26 @@ twitter(url)
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+{
+  developer: 'AbroCodes',
+  contactme: 'Telegram: abrocodes',
+  title: '...',
+  url: [
+  {
+   hd: '...'
+   },
+   {
+   sd: '...'
+   }
+]
+}
+```
+</details>
 
 ### 🎬 YouTube
 ```javascript
@@ -136,6 +215,14 @@ youtube(url)
   .catch(err => console.error('❌ Error:', err));
 ```
 
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+CHECK IT OUT YOURSELF ❤️
+```
+</details>
+
 ### 📁 MediaFire
 ```javascript
 const { mediafire } = require('ab-downloader');
@@ -148,6 +235,13 @@ mediafire(url)
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+CHECK IT OUT YOURSELF ❤️
+```
+</details>
 
 ### 🎬 CapCut
 ```javascript
@@ -161,6 +255,13 @@ capcut(url)
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+CHECK IT OUT YOURSELF ❤️
+```
+</details>
 
 ### 💾 Google Drive
 ```javascript
@@ -174,6 +275,14 @@ gdrive(url)
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+CHECK IT OUT YOURSELF ❤️
+```
+</details>
 
 ### 📌 Pinterest
 ```javascript
@@ -196,6 +305,14 @@ pinterest('Nature Photography')
   })
   .catch(err => console.error('❌ Error:', err));
 ```
+
+<details>
+<summary><b>View Sample Response</b></summary>
+  
+```json
+CHECK IT OUT YOURSELF ❤️
+```
+</details>
 
 ---
 
@@ -230,22 +347,13 @@ pinterest('Nature Photography')
 
 ### We welcome contributions! 🎉
 
-[![GitHub Issues](https://img.shields.io/github/issues/abrotech001/ab-downloader.svg?style=for-the-badge&color=red)](https://github.com/abrotech001/ab-downloader/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/abrotech001/ab-downloader.svg?style=for-the-badge&color=blue)](https://github.com/abrotech001/ab-downloader/pulls)
 
 </div>
 
 ### 🐛 Found a Bug?
-1. Check existing [issues](https://github.com/abrotech001/ab-downloader/issues)
-2. Create a new issue with detailed description
+1. Contact Developer on Telegram: https://t.me/abrocodes
+2. Submit an issue with detailed description
 3. Include error logs and reproduction steps
-
-### 💡 Want to Contribute?
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
@@ -265,6 +373,6 @@ pinterest('Nature Photography')
 
 ---
 
-<sub>Made with ❤️ by [AbroTech](https://github.com/abrotech001)</sub>
+<sub>Made with ❤️ by [AbroCodes](https://github.com/abrotech001)</sub>
 
 </div>
