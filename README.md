@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://files.catbox.moe/5msbx0.png" width="180" alt="AB-Downloader Logo"/>
+<img src="https://files.catbox.moe/d66kll.jpeg" width="180" alt="AB-Downloader Logo"/>
 
 ### 🎯 **Universal Media Downloader**
 *Download content from Instagram, TikTok, Facebook, YouTube, and more!*
