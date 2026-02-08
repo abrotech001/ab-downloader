@@ -29,7 +29,7 @@
 <nav >
     
     
-    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-btch-downloader.html">btch-downloader</a><ul class='methods'><li data-type='method'><a href="module-btch-downloader.html#~aio">aio</a></li><li data-type='method'><a href="module-btch-downloader.html#~capcut">capcut</a></li><li data-type='method'><a href="module-btch-downloader.html#~fbdown">fbdown</a></li><li data-type='method'><a href="module-btch-downloader.html#~gdrive">gdrive</a></li><li data-type='method'><a href="module-btch-downloader.html#~igdl">igdl</a></li><li data-type='method'><a href="module-btch-downloader.html#~mediafire">mediafire</a></li><li data-type='method'><a href="module-btch-downloader.html#~pinterest">pinterest</a></li><li data-type='method'><a href="module-btch-downloader.html#~ttdl">ttdl</a></li><li data-type='method'><a href="module-btch-downloader.html#~twitter">twitter</a></li><li data-type='method'><a href="module-btch-downloader.html#~youtube">youtube</a></li></ul></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-ab-downloader.html">ab-downloader</a><ul class='methods'><li data-type='method'><a href="module-ab-downloader.html#~aio">aio</a></li><li data-type='method'><a href="module-ab-downloader.html#~capcut">capcut</a></li><li data-type='method'><a href="module-ab-downloader.html#~fbdown">fbdown</a></li><li data-type='method'><a href="module-ab-downloader.html#~gdrive">gdrive</a></li><li data-type='method'><a href="module-ab-downloader.html#~igdl">igdl</a></li><li data-type='method'><a href="module-ab-downloader.html#~mediafire">mediafire</a></li><li data-type='method'><a href="module-ab-downloader.html#~pinterest">pinterest</a></li><li data-type='method'><a href="module-ab-downloader.html#~ttdl">ttdl</a></li><li data-type='method'><a href="module-ab-downloader.html#~twitter">twitter</a></li><li data-type='method'><a href="module-ab-downloader.html#~youtube">youtube</a></li></ul></li></ul>
     
 </nav>
 
@@ -46,18 +46,18 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @module btch-downloader
+ * @module ab-downloader
  * @description A module for downloading media from various platforms, including Instagram, TikTok, Facebook, Twitter, YouTube, and MediaFire.
- * @see {@link https://github.com/hostinger-bot/btch-downloader|GitHub Repository} for contributions and issue reporting.
+ * @see {@link https://github.com/hostinger-bot/ab-downloader|GitHub Repository} for contributions and issue reporting.
  * @version 4.0.15
  * @author Tio
  * @license MIT
  * @example
  * // Install the module
- * npm install btch-downloader
+ * npm install ab-downloader
  *
  * // Import and use the module
- * const { aio, igdl, ttdl, fbdown, twitter, youtube, mediafire, pinterest, gdrive, capcut } = require('btch-downloader');
+ * const { aio, igdl, ttdl, fbdown, twitter, youtube, mediafire, pinterest, gdrive, capcut } = require('ab-downloader');
  */
 
 /**
@@ -68,7 +68,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { aio } = require('btch-downloader');
+ * const { aio } = require('ab-downloader');
  * aio('https://www.instagram.com/p/ByxKbUSnubS/?utm_source=ig_web_copy_link')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -83,7 +83,7 @@
  * @returns {Promise&lt;Array&lt;Object>|Object>} An array of JSON objects or an error object.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { igdl } = require('btch-downloader');
+ * const { igdl } = require('ab-downloader');
  * igdl('https://www.instagram.com/p/ByxKbUSnubS/?utm_source=ig_web_copy_link')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -98,7 +98,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { ttdl } = require('btch-downloader');
+ * const { ttdl } = require('ab-downloader');
  * ttdl('https://www.tiktok.com/@omagadsus/video/7025456384175017243')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -113,7 +113,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { fbdown } = require('btch-downloader');
+ * const { fbdown } = require('ab-downloader');
  * fbdown('https://www.facebook.com/watch/?v=1393572814172251')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -128,7 +128,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { twitter } = require('btch-downloader');
+ * const { twitter } = require('ab-downloader');
  * twitter('https://twitter.com/gofoodindonesia/status/1229369819511709697')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -143,7 +143,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { youtube } = require('btch-downloader');
+ * const { youtube } = require('ab-downloader');
  * youtube('https://youtube.com/watch?v=C8mJ8943X80')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -158,7 +158,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { mediafire } = require('btch-downloader');
+ * const { mediafire } = require('ab-downloader');
  * mediafire('https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk/file')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -173,7 +173,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { capcut } = require('btch-downloader');
+ * const { capcut } = require('ab-downloader');
  * capcut('https://www.capcut.com/template-detail/7299286607478181121?template_id=7299286607478181121&amp;share_token=80302b19-8026-4101-81df-2fd9a9cecb9c&amp;enter_from=template_detail&amp;region=ID&amp;language=in&amp;platform=copy_link&amp;is_copy_link=1')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -188,7 +188,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the URL is invalid or the media is not accessible.
  * @example
- * const { gdrive } = require('btch-downloader');
+ * const { gdrive } = require('ab-downloader');
  * gdrive('https://drive.google.com/file/d/1thDYWcS5p5FFhzTpTev7RUv0VFnNQyZ4/view?usp=drivesdk')
  *   .then(data => console.log(data))
  *   .catch(err => console.error(err));
@@ -203,7 +203,7 @@
  * @returns {Promise&lt;Object>} A JSON object containing the media data.
  * @throws {Error} If the input is invalid or the media is not accessible.
  * @example
- * const { pinterest } = require('btch-downloader');
+ * const { pinterest } = require('ab-downloader');
  * // Using a URL
  * pinterest('https://pin.it/4CVodSq')
  *   .then(data => console.log(data))
