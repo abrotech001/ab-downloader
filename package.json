@@ -21,22 +21,15 @@
     "Gdrive",
     "Pinterest",
     "Downloader",
-    "AbroCodes",
+    "AbroCodes"
   ],
-  "author": "AbroCodes",
+  "author": "AbroCodes (https://whatsapp.com/channel/0029VaidGkA6hENhcPlyuu1e)",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0",
     "docdash": "^2.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abrocodes/unknown-downloader.git"
-  },
-  "bugs": {
-    "url": "https://github.com/abrocode/unknown-downloader/issues"
-  },
-  "homepage": "https://github.com/abrocode/unknown-downloader#readme",
+  "homepage": "https://abrotech001.github.io/ab-downloader",
   "directories": {
     "doc": "docs",
     "lib": "lib",
